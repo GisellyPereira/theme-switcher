@@ -119,3 +119,50 @@ body.dark .tudo{
 .checkbox:checked + .label .ball{
   transform:translateX(50px) ;
 }
+
+@media (max-width: 1500px){
+  .tudo{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .titulo-img img{
+    width: 640px;
+    height: 200px;
+   
+  }
+  .theme{
+    right: 100px;
+  }
+  
+}
+
+@media (max-width: 1100px){
+  .tudo{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .titulo-img img{
+    width: 545px;
+    height: 200px;
+  }
+  .theme{
+    right: 50px;
+  }
+  .dividir-mobile{
+    display: flex;
+  }
+  .ingredientes{
+    margin-bottom: 20px;
+  }
+  .ingredientes ul li{
+    margin-left: 2px;
+    
+  }
+  .preparo ul li{
+    margin-left: 18px;
+  }
+  
+}
+
